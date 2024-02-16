@@ -1,0 +1,19 @@
+{
+  "name": "project-fresh-backend",
+  "version": "1.0.0",
+  "description": "This is the Backend written in production level for project Stage Fresh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Project",
+    "Fresh",
+    "Backend"
+  ],
+  "author": "Yogesh Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
