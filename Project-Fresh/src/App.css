@@ -1,0 +1,13 @@
+/* Tailwind CSS Utilities */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Actuall App CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}

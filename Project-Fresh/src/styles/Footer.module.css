@@ -1,0 +1,48 @@
+/* Footer.module.css */
+
+/* Font baloo import from Google fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap");
+
+/* Variable Declarations */
+
+:root {
+  --color-dark-blue: #03045e;
+  --color-light-green: #31a575;
+  --font-style-baloo: "Baloo Bhaijaan 2", sans-serif;
+}
+.copyright {
+  font-family: var(--font-style-baloo);
+  font-size: 18px;
+}
+
+.footer {
+  background-color: var(--color-dark-blue);
+  color: #fff;
+  padding: 20px 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.socialIcons {
+  display: flex;
+}
+
+.socialIcons a {
+  color: #fff;
+  font-size: 24px;
+  margin-left: 20px; /* Adjust spacing between icons */
+  text-decoration: none;
+}
+
+.socialIcons a:hover {
+  color: var(--color-light-green); /* Change color on hover */
+}
+
+/* Additional styles for individual social media icons can be added if necessary */

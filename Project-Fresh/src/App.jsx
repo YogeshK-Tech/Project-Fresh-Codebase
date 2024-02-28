@@ -1,8 +1,12 @@
-import { useState } from "react";
 import "./App.css";
+import HeaderFooter from "./components/HeaderFooter";
 
 function App() {
-  return <h1> Hello</h1>;
+  return (
+    <>
+      <HeaderFooter> Hello</HeaderFooter>
+    </>
+  );
 }
 
 export default App;
