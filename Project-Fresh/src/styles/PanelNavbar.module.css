@@ -1,0 +1,84 @@
+/* PanelNavbar.module.css */
+
+/* Font baloo import from Google fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=swap");
+
+/* Variable Declarations */
+
+:root {
+  --color-dark-blue: #03045e;
+  --color-light-green: #31a575;
+  --font-style-baloo: "Baloo Bhaijaan 2", sans-serif;
+}
+
+.navbar {
+  background-color: white;
+  color: #fff;
+  padding: 5px 0;
+  border: 2px solid whitesmoke;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  height: 70px;
+  width: auto;
+}
+
+.mainMenu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mainMenu li {
+  display: inline-block;
+  margin-right: 40px;
+  font-size: 20px;
+  font-family: var(--font-style-baloo);
+  font-weight: 500;
+}
+
+.mainMenu li a {
+  text-decoration: none;
+  color: var(--color-dark-blue);
+  font-weight: 700;
+  transition: color 0.3s; /* Smooth transition for color change */
+}
+.mainMenu li a:hover {
+  color: var(--color-light-green); /* Change color on hover */
+}
+/* Navbar.module.css */
+
+.profileButton {
+  padding: 4px 12px;
+  margin-left: 10px;
+  border: 3px solid; /* Outline color set to white */
+  border-color: var(--color-light-green);
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: var(--color-dark-blue); /* Set background to transparent */
+  color: #fff; /* Set text color */
+  transition: background-color 0.3s; /* Smooth transition for background color change */
+}
+
+.profileButton:hover {
+  background-color: var(
+    --color-light-green
+  ); /* Change background color on hover to white */
+  border-color: var(--color-dark-blue);
+}
+
+.profileButton {
+  font-family: var(--font-style-baloo);
+  font-size: 20px;
+  font-weight: 500;
+}
