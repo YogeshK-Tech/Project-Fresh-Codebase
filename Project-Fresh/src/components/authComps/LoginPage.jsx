@@ -20,7 +20,7 @@ const LoginPage = () => {
               type="email"
               name="Email"
               id="login-user-email"
-              placeholder=" "
+              placeholder=""
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />
@@ -47,6 +47,7 @@ const LoginPage = () => {
           <button className={styles.green_button}>Continue</button>
         </form>
         <p>--- Or ---</p>
+        <button className={styles.green_button}>Back to signup</button>
         <div className={styles.other_buttons}>
           <button className={styles.google_button}>
             <span>

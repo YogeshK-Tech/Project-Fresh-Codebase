@@ -80,6 +80,7 @@ const SignupPage = () => {
           <button className={styles.green_button}>Continue</button>
         </form>
         <p>--- Or ---</p>
+        <button className={styles.green_button}>Back to login</button>
         <div className={styles.other_buttons}>
           <button className={styles.google_button}>
             <span>

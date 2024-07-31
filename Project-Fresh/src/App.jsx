@@ -1,16 +1,22 @@
 import "./App.css";
 import HeaderFooter from "./components/HeaderFooter";
-import SignupPage from "./components/inheritingcomps/SignupPage";
-import LoginPage from "./components/inheritingcomps/LoginPage";
-import Simulator from "./components/Simulator";
+import SignupPage from "./components/authComps/SignupPage";
+import LoginPage from "./components/authComps/LoginPage";
+import CompanyPage from "./components/maincomps/CompanyPage";
+import ContactPage from "./components/maincomps/ContactPage";
+import LibraryPage from "./components/maincomps/LibraryPage";
 
 function App() {
   return (
     <>
-      {/* <HeaderFooter>Hello</HeaderFooter>
+      {/* <HeaderFooter>
+        <CompanyPage></CompanyPage>
+        <ContactPage></ContactPage>
+        <LibraryPage></LibraryPage>
+      </HeaderFooter> */}
       <SignupPage></SignupPage>
-      <LoginPage></LoginPage> */}
-      <Simulator></Simulator>
+      {/* <LoginPage></LoginPage> */}
+      {/* <Simulator></Simulator> */}
     </>
   );
 }
